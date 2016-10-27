@@ -1,26 +1,28 @@
 .button {
-    background-color: #ecf0f1;
+    background-color: #bdc3c7;
     font-family: arial;
-    border-radius: 3px;
-    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    border-color:#7f8c8d;
     cursor: pointer;
     font-weight: bold;
     display: inline-block;
-    padding: 5px 10px;
-    color: #2c3e50;
-    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+     border-width: 0px 0px 3px;
+     border-style:solid;
     transition: background-color .2s;
+    font-size: 1.5em;
 }
 
 .button:hover {
-    background-color:#bdc3c7;
+    background-color:#7f8c8d;
 }
 
 .button_ok {
     background-color: #2ecc71;
-    border: 1px solid #20A129;
+    border-color:#27ae60;
     color:white;
-    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.75);
     transition: background-color .2s;
 }
 
@@ -30,9 +32,8 @@
 
 .button_cancel {
     background-color: #e74c3c;
-    border: 1px solid #A92023;
+    border-color:#A92023;
     color: white;
-    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.75);
     transition: background-color .2s;
 }
 
