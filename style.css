@@ -1,0 +1,41 @@
+.button {
+    background-color: #ecf0f1;
+    font-family: arial;
+    border-radius: 3px;
+    border: 1px solid #bdc3c7;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #2c3e50;
+    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.75);
+    transition: background-color .2s;
+}
+
+.button:hover {
+    background-color:#bdc3c7;
+}
+
+.button_ok {
+    background-color: #2ecc71;
+    border: 1px solid #20A129;
+    color:white;
+    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.75);
+    transition: background-color .2s;
+}
+
+.button_ok:hover {
+    background-color:#27ae60;
+}
+
+.button_cancel {
+    background-color: #e74c3c;
+    border: 1px solid #A92023;
+    color: white;
+    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.75);
+    transition: background-color .2s;
+}
+
+.button_cancel:hover {
+    background-color:#c0392b;
+}
